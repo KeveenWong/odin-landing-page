@@ -35,9 +35,8 @@ body, html {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 730px;
     padding: 12px;
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -45,12 +44,14 @@ body, html {
 .header-logo img {
     width: 100px;
     height: auto;
+    margin-left: 200px;
 }
 
 .top-links {
     font-size: 18px;
     color: #fefbff;
     font-weight: 200;
+    margin-right: 200px;
 }
 
 .section-1 {
