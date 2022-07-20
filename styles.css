@@ -11,6 +11,23 @@ body {
     background-color: #260080;
 }
 
+body, html {
+    height: 100%;
+}
+  
+.bg {
+    /* The image used */
+    background-image: url("images/headspace.webp");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header-hero-container {
     display: flex;
     flex-direction: column;
@@ -37,7 +54,6 @@ body {
 }
 
 .section-1 {
-    background-color: #260080;
     display: flex;
     align-items: center;
     gap: 32px;
@@ -49,6 +65,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #fefbff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 15px yellow;
 }
 
 .hero-secondary-text {
@@ -60,12 +77,12 @@ body {
 .hero-img img {
     width: 500px;
     height: auto;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px #260080;
 }
 
 .buttons {
-    background-color: #c8a4e9;
-    border: 1px solid #c8a4e9;
+    background-color: #260080;
+    border: 1px solid #fefbff;
     padding: 8px 28px;
     margin-top: 12px;
     border-radius: 4px;
@@ -109,7 +126,7 @@ body {
 }
 
 .section-3 {
-    background-color: #9ec5e2;
+    background-color: #e5e7eb;
 }
 
 .quote-container {
@@ -124,6 +141,7 @@ body {
     font-style: italic;
     font-weight: 200;
     align-self: center;
+    text-shadow: 0 0 5px #0000FF, 0 0 20px yellow;
 }
 
 .quote-section {
@@ -171,7 +189,7 @@ a:link {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c8a4e9;
+    background-color: #260080;
     margin: 72px 200px;
     padding: 32px;
     gap: 200px;
@@ -206,4 +224,5 @@ a:link {
     color: #fefbff;
     font-weight: 200;
     text-align: center;
+    text-shadow: 0 0 5px #0000FF, 0 0 30px yellow;
 }
